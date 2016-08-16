@@ -28,6 +28,8 @@
     - react
 
   rules:
+    import/imports-first: 0
+
     react/jsx-uses-vars: 1
     react/prop-types: [1, { ignore: [children] }]
     react/prefer-stateless-function: warn
@@ -44,7 +46,7 @@
     eol-last: 1
     comma-spacing: 1
     eqeqeq: 1
-    indent: [2, 4]
+    indent: [2, 4, {SwitchCase: 1}]
     max-len: [2, 200]
 
     # possible errors

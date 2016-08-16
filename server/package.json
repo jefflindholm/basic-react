@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon bin/server.js"
+  },
+  "keywords": [],
+  "author": "Jeff Lindholm <jeff@lindholm.org>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "helmet": "^2.1.2",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

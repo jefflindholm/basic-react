@@ -5,13 +5,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || '3000';
-const SRC = './client';
+const SRC = './src';
 const ENTRY_POINT = `${SRC}/index.js`;
 
 // local css modules
 // this also contains the SRC directory if you change it
 loaders.push({
-    test: /[\/\\]client[\/\\].*\.css$/,
+    test: /[\/\\]src[\/\\].*\.css$/,
     loaders: [
         'style?sourceMap',
         'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
